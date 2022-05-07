@@ -51,7 +51,7 @@ $(function() {
             // Set price using the iOS app ID if it is not set manually in _config.yml
             var $appPrice = $(".appPrice");
             if ($.trim($($appPrice).text()).length == 0) {
-                $($appPrice).html(appInfo.formattedPrice);
+                $($appPrice).html(appInfo.artistName);
             }
 
             // Set App Store link using the iOS app ID if it is not set manually in _config.yml
